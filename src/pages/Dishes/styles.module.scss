@@ -1,0 +1,21 @@
+.container {
+  background: var(--white);
+  padding: 1rem;
+  border-radius: 1rem;
+
+  box-shadow: 0 0 32px 2px rgba(0, 0, 0, 0.1);
+
+  width: 90vw;
+  max-width: 800px;
+  margin: 2rem auto;
+
+  img {
+    margin-bottom: 2rem;
+    width: 7rem;
+    height: 7rem;
+  }
+
+  h2 {
+    margin-bottom: 1rem;
+  }
+}

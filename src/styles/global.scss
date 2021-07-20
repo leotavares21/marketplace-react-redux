@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #fff;
+
+  --green-300: #5dd973;
+  --green-400: #27ae60;
+
+  --gray-100: #ecf0f1;
+  --gray-800: #3e4651;
+
+  --blue-700: #34495e;
+
+  --pw-size: 5vw;
+}
+
+body,
+input,
+button {
+  font: 400 1rem "Roboto", sans-serif;
+  color: var(--gray-800);
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--gray-100);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "PT Sans", sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2, h3 {
+  font-size: 1.5rem;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

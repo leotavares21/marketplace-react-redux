@@ -1,0 +1,28 @@
+{
+  "dishes": [
+    {
+      "id": "macarrao-com-frutos-do-mar-picante",
+      "title": "Macarrão com frutos do mar picante",
+      "price": 17.90,
+      "thumbnail": "/image-1.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at ligula lectus. Etiam et tincidunt elit. Morbi vel arcu volutpat tellus pulvinar maximus eu sed nulla. In ac enim eget lorem semper convallis. Nulla sagittis tempus ex sit amet consequat. Maecenas et facilisis sapien, vel pulvinar ipsum. Sed ultricies quam ac lectus accumsan eleifend.",
+      "quantity": 1
+    },
+    {
+      "id": "macarrao-salgado-com-molho-de-cogumelos",
+      "title": "Macarrão Salgado com Molho de Cogumelos",
+      "price": 14.79,
+      "thumbnail": "/image-2.png",
+      "description": "Vestibulum porttitor consequat sollicitudin. Pellentesque imperdiet diam turpis, nec aliquet nunc fermentum ut. Vivamus ipsum urna, ornare dignissim neque eu, finibus consequat purus. Sed non ex sagittis, venenatis metus eu, ullamcorper felis.",
+      "quantity": 1
+    },
+    {
+      "id": "arroz-frito-picante-com-omelete",
+      "title": "Arroz frito picante com omelete",
+      "price": 16.59,
+      "thumbnail": "/image-3.png",
+      "description": "Nulla ut gravida dolor. Donec volutpat vitae risus id condimentum. Pellentesque a lorem ipsum. Mauris nec enim leo. Donec at efficitur magna, sit amet ullamcorper magna. Nulla facilisi. In urna erat, pretium eu mauris at, cursus ultricies mi.",
+      "quantity": 1
+    }
+  ]
+}

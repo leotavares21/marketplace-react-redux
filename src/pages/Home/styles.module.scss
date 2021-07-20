@@ -1,0 +1,94 @@
+.container {
+  main {
+    margin: 2rem var(--pw-size);
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+      margin-bottom: 3rem;
+    }
+
+    .cardDishes {
+      display: flex;
+      justify-content: space-evenly;
+      gap: 1rem;
+      margin-top: 3rem;
+
+      @media (max-width: 900px) {
+        flex-direction: column;
+        align-items: center;
+        gap: 15vh;
+      }
+
+      div {
+        background: var(--white);
+        box-shadow: 0 0 32px 2px rgba(0, 0, 0, 0.1);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding: 6rem 1rem 1rem 1rem;
+        border-radius: 1rem;
+        width: 90vw;
+        height: 50vh;
+        max-width: 250px;
+        max-height: 250px;
+
+        @media (max-width: 900px) {
+          max-width: 350px;
+          max-height: 350px;
+
+          justify-content: center;
+        }
+
+
+        img {
+          position: absolute;
+          width: 7rem;
+          height: 7rem;
+          top: 0;
+          transform: translateY(-50%);
+        }
+
+        strong {
+          text-align: center;
+          margin-bottom: 0.5rem;
+        }
+
+        span {
+          margin-bottom: 0.5rem;
+        }
+
+        button {
+          background: var(--green-400);
+          color: var(--white);
+
+          padding: 0.5rem;
+          margin-bottom: 0.5rem;
+
+          display: flex;
+          align-items: center;
+
+          gap: 0.5rem;
+          border-radius: 0.5rem;
+
+          transition: opacity 0.3s;
+
+          &:hover {
+            opacity: 0.85;
+          }
+        }
+
+        a {
+          color: var(--blue-700);
+          font-size: 0.9rem;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
