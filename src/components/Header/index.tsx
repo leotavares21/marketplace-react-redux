@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 
 import { CartMapState, Dishes } from "../../store/types";
 
-import { connectBtnCart as BtnCart } from "../Cart";
+import { connectBtnCart as BtnCart } from "../CartElements";
 
 import styles from "./styles.module.scss";
 
