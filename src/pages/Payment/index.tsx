@@ -1,5 +1,4 @@
 import { bindActionCreators, Dispatch } from "redux";
-import { useEffect } from "react";
 
 import * as cartActions from "../../store/actions/cart";
 
@@ -8,17 +7,18 @@ import { connect } from "react-redux";
 import { CartMapState, Dishes } from "../../store/types";
 
 import { priceToString } from "../../utils/priceToString";
+import { useEffect } from "react";
 
 type PaymentProps = {
   items: Dishes[];
   cartValue: string;
-  openCart: (open: boolean) => void;
+  handleOpenCart: (open: boolean) => void;
 };
 
-function Payment({ items, cartValue, openCart }: PaymentProps) {
+function Payment({ items, cartValue, handleOpenCart }: PaymentProps) {
   useEffect(() => {
-    openCart(false);
-  }, []);
+    handleOpenCart(false);
+  }, []); // eslint-disable-line
 
   return (
     <div className={styles.container}>

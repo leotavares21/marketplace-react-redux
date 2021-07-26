@@ -16,6 +16,8 @@ export function fetchDishesFailure(error: string) {
 
 export const getDishes: getDishesActionCreator = () => async (dispatch) => {
   try {
+    dispatch(fetchDishesRequest());
+
     const res = await api.get("dishes");
     const dishes = res.data;
 

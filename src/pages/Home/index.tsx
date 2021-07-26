@@ -45,7 +45,7 @@ function Home({ dishes, loading, getDishes, handleAddCartItem }: HomeProps) {
               >
                 <HiShoppingCart /> Adicionar
               </button>
-              <Link to={`/pratos/${dish.id}`}>Saiba mais</Link>
+              <Link to={`/prato/${dish.id}`}>Saiba mais</Link>
             </div>
           ))}
         </article>
